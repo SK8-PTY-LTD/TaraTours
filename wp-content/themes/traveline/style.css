@@ -1,0 +1,180 @@
+/*
+Theme Name: Traveline WP Theme
+Theme URI: http://themeforest.net/user/webPentagon
+Author: Webpentagon
+Author URI: http://themeforest.net/user/webPentagon
+Description: In 2015, Traveline WP Travel theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.0
+License: themeforest
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, accessibility-ready
+Text Domain: Traveline
+
+This theme, like WordPress, is licensed under the Themeorest.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 2.0 - Repeatable Patterns
+ * 3.0 - Basic Structure
+ * 4.0 - Header
+ * 5.0 - Navigation
+ * 6.0 - Content
+ *   6.1 - Post Thumbnail
+ *   6.2 - Entry Header
+ *   6.3 - Entry Meta
+ *   6.4 - Entry Content
+ *   6.5 - Galleries
+ *   6.6 - Post Formats
+ *   6.7 - Post/Image/Paging Navigation
+ *   6.8 - Attachments
+ *   6.9 - Archives
+ *   6.10 - Contributor Page
+ *   6.11 - 404 Page
+ *   6.12 - Full-width
+ *   6.13 - Singular
+ *   6.14 - Comments
+ * 7.0 - Sidebar
+ *   7.1 - Widgets
+ *   7.2 - Content Sidebar Widgets
+ * 8.0 - Footer
+ * 9.0 - Featured Content
+ * 10.0 - Multisite
+ * 11.0 - Media Queries
+ * 12.0 - Print
+ * -----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Reset
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+ * along with Nicolas Gallagher and Jonathan Neal
+ * http://necolas.github.com/normalize.css/ and Blueprint
+ * http://www.blueprintcss.org/
+ *
+ * -----------------------------------------------------------------------------
+ */
+.menu-item{
+	position: relative;
+}
+.sticky .post-title{
+	color: red;
+}
+.widget img{
+	max-width: 100%;
+	height: auto;
+}
+
+form select {
+	width:100%;
+}
+
+.wp-caption{
+	max-width: 100%;
+}
+.wp-caption-text{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 9px 0;
+}
+.sticky .blog-title a{
+	color:red;
+}
+.sticky .blog-title a:hover{
+	color: #0099d5;
+}
+.gallery-caption{
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	padding: 6px 8px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.bypostauthor{
+	content: "\f408";
+	margin: 0 2px 0 -2px;
+	position: relative;
+	top: -1px;
+}
+.alignright{
+	float: right;
+}
+.alignleft{
+	float: left;
+	margin-right: 5px;
+}
+.aligncenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+.contents ul{
+	list-style: square!important;
+}
+.contents ol{
+	list-style: decimal!important;
+}
+embed,
+iframe,
+object,
+video {
+	margin-bottom: 24px;
+	max-width: 100%;
+}
+
+p > embed,
+p > iframe,
+p > object,
+span > embed,
+span > iframe,
+span > object {
+	margin-bottom: 0;
+}
+.sticky .post-header h2 a{
+	color:red;
+}
+
+.widget_nav_menu #menu-testing-menu > li > ul.sub-menu{
+	left: 100px!important;
+    top: 0;
+}
+
+.widget ul{
+	margin-left: -30px;
+}
+.widget ul li {
+	padding:5px 0;
+}
+table{
+	border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+table, td, tr, th{
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}

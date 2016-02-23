@@ -1,0 +1,307 @@
+/* Options Framework Admin Styles */
+
+#optionsframework-wrap h3 {
+    cursor: default;
+}
+#optionsframework-wrap p {
+    margin-bottom:0;
+    padding-bottom:10px;
+}
+#optionsframework-wrap .section {
+    padding:10px 10px 0;
+    margin-bottom: 10px;
+}
+#optionsframework-wrap .group {
+    padding-bottom:40px;
+    display: none;
+}
+#optionsframework-wrap .section .controls {
+    float: left;
+    min-width:350px;
+    width: 40%;
+    padding-right:2%;
+}
+#optionsframework-wrap .section .explain {
+    max-width:38%;
+    float: left;
+    font-size: 12px;
+    line-height:16px;
+    color: #777;
+}
+#optionsframework-wrap .section-checkbox .controls {
+    width: 98%;
+}
+#optionsframework-wrap .section-checkbox .explain {
+    max-width:94%;
+}
+#optionsframework-wrap .controls input[type=text] {
+    width:100%;
+}
+#optionsframework-wrap .controls input[type=text].wp-color-picker {
+    width: 65px;
+}
+#optionsframework-wrap .controls select, #optionsframework-wrap .controls textarea {
+    margin-bottom:10px;
+    width:100%;
+}
+#optionsframework-wrap .section-radio label, #optionsframework-wrap .section-multicheck label {
+    float:left;
+    max-width:90%;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+#optionsframework-wrap input.checkbox, #optionsframework-wrap input.of-radio {
+    margin: 0 10px 5px 0;
+    float:left;
+    clear:both;
+}
+#optionsframework-wrap .section-typography .controls {
+    float:none;
+    width:auto;
+}
+#optionsframework-wrap .section-typography .explain {
+    float:none;
+    width:auto;
+}
+#optionsframework-wrap .controls .of-typography-size {
+    width:80px;
+    float:left
+}
+#optionsframework-wrap .controls .of-typography-unit {
+    width:50px;
+    margin-left:5px;
+    float:left
+}
+#optionsframework-wrap .controls .of-typography-face {
+    width:100px;
+    margin-left:5px;
+    float:left
+}
+#optionsframework-wrap .controls .of-typography-style {
+    width:80px;
+    margin-left:5px;
+    margin-right:5px;
+    float:left
+}
+#optionsframework-wrap .section-typography .wp-picker-container {
+    margin-top:2px;
+}
+#optionsframework-wrap .of-background-properties {
+    clear:both;
+    margin-top: 18px;
+}
+#optionsframework-wrap .controls .of-background-repeat {
+    width:125px;
+    margin-right:5px;
+    float:left
+}
+#optionsframework-wrap .controls .of-background-position {
+    width:125px;
+    margin-right:5px;
+    float:left
+}
+#optionsframework-wrap .controls .of-background-attachment {
+    width:125px;
+    margin-right:5px;
+    float:left
+}
+#optionsframework-wrap .section-background .wp-picker-container {
+    margin-bottom:10px;
+}
+#optionsframework-wrap .controls .of-radio-img-img {
+    border:3px solid #ccc;
+    margin:0 5px 20px 0;
+    display:none;
+    cursor:pointer;
+    float:left;
+}
+#optionsframework-wrap .controls .of-radio-img-selected {
+    border:3px solid #888
+}
+#optionsframework-wrap .controls .of-radio-img-img:hover {
+    opacity:.8;
+}
+#optionsframework-wrap .controls .of-border-width {
+    width:80px;
+    float:left
+}
+#optionsframework-wrap .controls .of-border-style {
+    width:120px;
+    float:left
+}
+#optionsframework-wrap .hide {
+    display:none;
+}
+#optionsframework-wrap .of-option-image {
+    max-width:340px;
+    margin:3px 0 18px 0;
+}
+#optionsframework-wrap .mini .controls select, #optionsframework-wrap .section .mini .controls {
+    width: 140px;
+}
+#optionsframework-wrap .mini .controls input, #optionsframework-wrap .mini .controls {
+    min-width:140px;
+    width: 140px;
+}
+#optionsframework-wrap .mini .explain {
+    max-width:74%;
+}
+
+/* Editor */
+
+#optionsframework-wrap .section-editor .explain {
+    max-width: 98%;
+    float:none;
+    margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#optionsframework-wrap .controls input.upload {
+    width:80%;
+}
+#optionsframework-wrap .screenshot {
+    float:left;
+    margin-left:1px;
+    position:relative;
+    width:344px;
+    margin-top:3px;
+}
+#optionsframework-wrap .screenshot img {
+    background:#fafafa;
+    border-color:#ccc #eee #eee #ccc;
+    border-style:solid;
+    border-width:1px;
+    float:left;
+    max-width:334px;
+    padding:4px;
+    margin-bottom:10px;
+}
+#optionsframework-wrap .screenshot .remove-image {
+    background:url("../images/ico-delete.png") no-repeat;
+    border:medium none;
+    bottom:4px;
+    display:block;
+    float:left;
+    height:16px;
+    padding:0;
+    position:absolute;
+    left:-4px;
+    text-indent:-9999px;
+    width:16px;
+}
+#optionsframework-wrap .screenshot .no_image .file_link {
+    margin-left: 20px;
+}
+#optionsframework-wrap .screenshot .no_image .remove-button {
+    bottom: 0px;
+}
+#optionsframework-wrap .reset-button {
+    float:left;
+    cursor:pointer;
+}
+
+/* Bottom Section */
+
+#optionsframework-submit {
+    padding: 7px 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f1f1f1;
+}
+#optionsframework-wrap #optionsframework-submit .button-primary {
+    float:right;
+}
+#optionsframework-wrap .section:after {
+    content: "";
+    display: table;
+}
+#optionsframework-wrap .section:after {
+    clear: both;
+}
+#optionsframework-wrap h2 {
+    margin-bottom: 15px;
+}
+
+#optionsframework-wrap form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.025);
+    box-shadow: 0 1px 0 rgba(0,0,0,.025);
+    max-width: 1020px;
+}
+
+.of-container {
+    position: relative;
+    overflow: auto;
+}
+
+.of-content-back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 150px;
+    right: 170px;
+    border: 1px solid #e1e1e1;
+    border-top: 0;
+    border-bottom: 0;
+    background: #f6fbfd;
+}
+.of-content {
+    position: relative;
+}
+.of-sidebar {
+    float: left;
+    width: 150px;
+    margin: 0;
+}
+.of-sidebar ul {
+    margin: 1em 0;
+}
+.of-sidebar ul li {
+    margin-bottom: 0;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    border-color: transparent;
+}
+.of-sidebar ul li a {
+    display: block;
+    padding: 5px 5px 5px 12px;
+    line-height: 18px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-right: 0;
+    border-left: 0;
+}
+.of-sidebar .active {
+    padding: 0;
+    margin: 0 -1px 0 0;
+    border-left: 2px solid #2ea2cc;
+    background: #f6fbfd;
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.02),0 1px 0 rgba(0,0,0,.02);
+    box-shadow: 0 2px 0 rgba(0,0,0,.02),0 1px 0 rgba(0,0,0,.02);
+}
+.of-right-sidebar {
+    width: 150px;
+    float: right;
+    padding: 0 8px 0 12px;
+    overflow: auto;
+}
+.of-sidebar .active a {
+    border-color: #e1e1e1;
+    color: #333;
+}
+.of-metabox {
+    padding: 0 20px;
+    overflow: auto;
+}
+.of-metabox .section .explain {
+float: left;
+padding: 0 10px 0 0;
+font-size: 11px;
+color: #999;
+}
+.skip-setup {
+    display: inline-block;
+    margin-left: 20px;
+}
